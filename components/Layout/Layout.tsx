@@ -11,6 +11,14 @@ const Layout = ({ children }: Props) => {
       <Navbar />
       {children}
       <footer>This is the footer</footer>
+
+      <style jsx>
+        {`
+          div {
+            background: salmon;
+          }
+        `}
+      </style>
     </div>
   );
 };
