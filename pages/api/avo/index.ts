@@ -1,5 +1,5 @@
-import { NextApiRequest, NextApiResponse } from 'next';
 import DB from '@database';
+import { NextApiRequest, NextApiResponse } from 'next';
 
 const allAvos = async (reg: NextApiRequest, res: NextApiResponse) => {
   const database = new DB();
